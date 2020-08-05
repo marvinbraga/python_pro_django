@@ -4,4 +4,4 @@
 [![Python 3](https://pyup.io/repos/github/marvinbraga/python_pro_django/python-3-shield.svg)](https://pyup.io/repos/github/marvinbraga/python_pro_django/)
 
 Projeto de Django do Curso Python Pro
-Deploy automático com Heroku.
+Deploy automático - Heroku.
