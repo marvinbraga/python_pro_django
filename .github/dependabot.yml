@@ -3,24 +3,17 @@
 # Please see the documentation for all configuration options:
 # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
-version: 1
+version: 2
 
-update_configs:
-
-  - package_manager: "python"
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
     directory: "/"
-    update_schedule: "daily"
-    allowed_updates:
-      - match:
-          update_type: "all"
-    commit_message:
-      prefix: ":arrow_up:"
+    schedule:
+      interval: "daily"
 
-  - package_manager: "github_actions"
+
+  # Enable version updates for python pip
+  - package-ecosystem: "pipenv"
     directory: "/"
-    update_schedule: "daily"
-    allowed_updates:
-      - match:
-          update_type: "all"
-    commit_message:
-      prefix: ":arrow_up:"
+    schedule:
+      interval: "daily"
