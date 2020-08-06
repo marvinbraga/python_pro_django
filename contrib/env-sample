@@ -1,1 +1,2 @@
 DEBUG=False
+SECRET_KEY=inserir_aqui_sua_secret_key
