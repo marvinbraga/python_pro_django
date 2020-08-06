@@ -7,6 +7,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+.env
 env/
 bin/
 build/
@@ -55,3 +56,6 @@ docs/_build/
 
 # SQlite
 *.sqlite3
+
+# pytest
+.pytest_cache/
